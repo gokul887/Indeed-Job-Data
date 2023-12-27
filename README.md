@@ -1,10 +1,21 @@
-Included File:
-    indeed_job_scraping.py
+# indeed_job_scraping.py
 
-Motivation:
-    Simplifies the process for searching for software internships.
+## Included File
 
-Current Working:
-    - Takes 20 pages of relevant data from Indeed for software intern jobs
-    - extracts html from the page and using Beautiful Soup finds relevant data
-    - Build a mySQL database with the job data: job title, company, location, Company rating, salary, indeed url(as scraping the job description is not permitted)
+`indeed_job_scraping.py`
+
+## Motivation
+
+Simplifies the process of searching for software internships.
+
+## Current Working
+
+- Takes 20 pages of relevant data from Indeed for software intern jobs.
+- Extracts HTML from the page and uses Beautiful Soup to find relevant data.
+- Builds a MySQL database with the job data:
+    - Job title
+    - Company
+    - Location
+    - Company rating
+    - Salary
+    - Indeed URL (as scraping the job description is not permitted)
